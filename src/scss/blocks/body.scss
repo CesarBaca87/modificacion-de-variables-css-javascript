@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #111;
+  background-color: whitesmoke;
   font-family: sans-serif;
+  min-height: 500vh;
+}
+.box {
+  height: 50px;
+  width: 200px;
+  background-color: var(--box-color);
 }
