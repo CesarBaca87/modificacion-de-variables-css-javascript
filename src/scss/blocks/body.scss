@@ -2,12 +2,25 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: whitesmoke;
+  background-color: var(--bg-color);
   font-family: sans-serif;
   min-height: 500vh;
 }
 .box {
+  height: 70px;
+  width: var(--box-widh);
+  background-color: red;
+  position: fixed;
+}
+.scroll-count {
+  // position: fixed;
+}
+.box-mouse {
+  position: fixed;
+  top: var(--top);
+  left: var(--left);
   height: 50px;
-  width: 200px;
-  background-color: var(--box-color);
+  width: 50px;
+  background-color: red;
+  pointer-events: none;
 }
